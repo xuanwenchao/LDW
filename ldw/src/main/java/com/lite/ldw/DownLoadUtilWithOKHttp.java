@@ -125,7 +125,7 @@ public class DownLoadUtilWithOKHttp {
                     } catch (Exception e) {
                         listener.onDownloadFailed(e);
                     } finally {
-
+                        isRunning = false;
                         try {
                             if (is != null) {
                                 is.close();
