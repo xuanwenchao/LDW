@@ -16,7 +16,7 @@ Add it in your root build.gradle at the end of repositories:
 
 ```
 dependencies {
-    implementation 'com.github.xuanwenchao:LDW:0.11'
+    implementation 'com.github.xuanwenchao:LDW:0.12'
 }
 ```
 
